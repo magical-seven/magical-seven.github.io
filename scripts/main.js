@@ -5,12 +5,12 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function(){
     let Mysrc = myImage.getAttribute('src');
-    if(Mysrc === '../images/firework.jpeg'){
+    if(Mysrc === 'images/firework.jpeg'){
         // alert('hello');
-        myImage.setAttribute('src','../images/firework2.jpeg');
+        myImage.setAttribute('src','images/firework2.jpeg');
     }
     else{
-        myImage.setAttribute('src','../images/firework.jpeg');
+        myImage.setAttribute('src','images/firework.jpeg');
     }
 
 }
